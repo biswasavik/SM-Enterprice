@@ -172,7 +172,7 @@ namespace SM_Enterprice.Repositories.Repositories
                     productGallery.ProductId = productId.Value;
                 }
             }
-            catch (Exception ex) 
+            catch (Exception) 
             { 
                 throw;
             }
